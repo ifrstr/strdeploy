@@ -136,7 +136,7 @@ fn main() {
     }
 
     warn!("Start pushing image: {}", &image);
-    if !cli.dry_run {
+    if cli.dry_run {
         warn!("Skipping pushing in dry-run.");
     } else {
         Command::new("docker")

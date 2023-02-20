@@ -6,7 +6,7 @@ description = "IlHarper Infrastructure Deploy | Deploy Resources in Seconds"
 
 [dependencies]
 clap = { version = "4.1.6", features = ["derive"] }
-env_logger = { version = "0.10.0", feature = [] }
-log = { version = "0.4.17", feature = ["std", "max_level_debug", "release_max_level_debug"] }
-serde = { version = "1.0.152", feature = ["std", "derive"] }
-serde_yaml = { version = "0.9.17", feature = [] }
+env_logger = { version = "0.10.0", features = [] }
+log = { version = "0.4.17", features = ["std", "max_level_debug", "release_max_level_debug"] }
+serde = { version = "1.0.152", features = ["std", "derive"] }
+serde_yaml = { version = "0.9.17", features = [] }

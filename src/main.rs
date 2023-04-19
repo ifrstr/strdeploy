@@ -75,7 +75,7 @@ fn main() {
     };
 
     let registry = match config.namespace {
-        "internal" => "docker.ilharper.com",
+        "internal" => "cr.ilharper.com",
         x => panic!("Unknown namespace: {}", x),
     };
 
